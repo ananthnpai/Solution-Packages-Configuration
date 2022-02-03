@@ -1,0 +1,17 @@
+[
+	{
+		"Sequence": 1,
+		"Object API Name": "clcommon__Asset_Class__c",
+		"External Id Field": "clcommon__External_ID__c"
+	},
+	{
+		"Sequence": 2,
+		"Object API Name": "clcommon__Rule_Set__c",
+		"External Id Field": "clcommon__External_ID__c"
+	},
+	{
+		"Sequence": 3,
+		"Object API Name": "clcommon__Rule__c",
+		"External Id Field": "clcommon__External_ID__c"
+	}
+]
