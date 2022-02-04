@@ -129,7 +129,7 @@
         "Sequence":31,
         "Object API Name":"intframework__Integration_Provider__c",
         "External Id Field":"intframework__External_Id__c",
-        "label" : "Integration Providers"
+        "label" : "Integration Provider"
     },
 
     {   
