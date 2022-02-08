@@ -1,0 +1,14 @@
+[
+    {   
+        "Sequence":1,
+        "Object API Name":"intframework__Integration_Family__c",
+        "External Id Field":"intframework__External_Id__c",
+        "label" : "Integration Family"
+    },
+    {   
+        "Sequence":2,
+        "Object API Name":"intframework__Integration_Provider__c",
+        "External Id Field":"intframework__External_Id__c",
+        "label" : "Integration Provider"
+    }
+]

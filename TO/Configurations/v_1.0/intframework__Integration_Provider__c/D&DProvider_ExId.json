@@ -1,0 +1,20 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_Provider__c"
+     },
+     "Name": "DandB Business",
+     "intframework__Activator_Class_Name__c": "intadapter.FICODandBBusinessLookupActivator",
+     "intframework__Active__c": false,
+     "intframework__Integration_Family__r": {
+          "attributes": {
+               "type": "intframework__Integration_Family__c"
+          },
+          "External_ID__c": null
+     },
+     "intframework__Product_Name__c": "DandB Business",
+     "intframework__Product_Version__c": "1.0",
+     "intframework__Provider_Name__c": "DandB Business Systems",
+     "intframework__Support_Type__c": "Out-of-the-Box",
+     "External_ID__c": "D&DProvider_ExId",
+     "Release_Checksum__c": "ef2584975a571d1ee3382d81a8ebebe23a92a8170c61efa343d86ac991690e78"
+}
