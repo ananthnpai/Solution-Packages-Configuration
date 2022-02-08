@@ -2,7 +2,7 @@
      "attributes": {
           "type": "intframework__Integration_Family__c"
      },
-     "Name": "Flood Determination - v1",
+     "Name": "Flood Determination - v2",
      "External_ID__c": "FloodDetermination_ExId",
-     "Release_Checksum__c": "db0e042e6272f55cef5c6c52650e86b5176770e047ae475010c82db30f1e9511"
+     "Release_Checksum__c": "6e9556e85993cbd60d5c158bdcd38f5d963e62b1be0a7171705f1e48c483e1d0"
 }
