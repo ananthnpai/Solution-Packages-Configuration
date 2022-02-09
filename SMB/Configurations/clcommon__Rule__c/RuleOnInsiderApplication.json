@@ -3,113 +3,19 @@
           "type": "clcommon__Rule__c"
      },
      "Name": "RuleOnInsiderApplication",
-     "clcommon__Enabled__c": true,
+     "clcommon__Enabled__c": false,
      "clcommon__External_ID__c": "RuleOnInsiderApplication",
-     "clcommon__Object_Type__c": "testap__applications__c",
+     "clcommon__Object_Type__c": "genesis__applications__c",
      "clcommon__Parent_Record_Id__c": null,
      "clcommon__Parent_Rule__r": null,
-     "clcommon__Rule_Json__c": {
-          "validationClassName": null,
-          "successMessage": "Success",
-          "successActions": [
-               {
-                    "type": "Apex",
-                    "priority": null,
-                    "apexClassName": "testap.ApplicationComplianceInfoAction",
-                    "additionalParams": "{\"testap__Insider_Relationship__c\":true}",
-                    "actionName": "SuccessActionForInsiderApplication"
-               }
-          ],
-          "sObjectName": "",
-          "saveRuleClass": null,
-          "ruleName": "RuleOnInsiderApplication",
-          "priority": null,
-          "parentRuleID": null,
-          "parentRecordId": null,
-          "objectType": "testap__applications__c",
-          "failureMessage": "Failure",
-          "failureActions": [
-               {
-                    "type": "Apex",
-                    "priority": null,
-                    "apexClassName": "testap.ApplicationComplianceInfoAction",
-                    "additionalParams": "{\"testap__Insider_Relationship__c\":false}",
-                    "actionName": "FailureActionForInsiderApplication"
-               }
-          ],
-          "executeActions": null,
-          "evaluationExpression": "$1 && $2 && $3 || $4",
-          "enabled": null,
-          "criteria": [
-               {
-                    "type": "Expression",
-                    "sequence": "$1",
-                    "relatedObject": "testap__applications__c",
-                    "minimumValue": null,
-                    "maximumValue": null,
-                    "matchingValue": "APPROVED - CONVERTED TO CONTRACT",
-                    "matchingType": "!=",
-                    "fieldType": "STRING",
-                    "fieldName": "Status",
-                    "fieldAPIName": "testap__Status__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": ""
-               },
-               {
-                    "type": "Expression",
-                    "sequence": "$2",
-                    "relatedObject": "testap__applications__c",
-                    "minimumValue": null,
-                    "maximumValue": null,
-                    "matchingValue": "REJECTED",
-                    "matchingType": "!=",
-                    "fieldType": "STRING",
-                    "fieldName": "Status",
-                    "fieldAPIName": "testap__Status__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": ""
-               },
-               {
-                    "type": "Expression",
-                    "sequence": "$3",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": null,
-                    "maximumValue": null,
-                    "matchingValue": "Insider",
-                    "matchingType": "==",
-                    "fieldType": "STRING",
-                    "fieldName": "Insider Relationship",
-                    "fieldAPIName": "clcommon__contact__r.clcommon__Insider_Relationship__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": ""
-               },
-               {
-                    "type": "Expression",
-                    "sequence": "$4",
-                    "relatedObject": "clcommon__Party__c",
-                    "minimumValue": null,
-                    "maximumValue": null,
-                    "matchingValue": "Related Interest of Insider",
-                    "matchingType": "==",
-                    "fieldType": "STRING",
-                    "fieldName": "Insider Relationship",
-                    "fieldAPIName": "clcommon__contact__r.clcommon__Insider_Relationship__c",
-                    "criterionName": null,
-                    "apexClassName": null,
-                    "additionalParams": ""
-               }
-          ],
-          "category": "ApplicationRules",
-          "abortQueueExecutionOnFailure": null
-     },
+     "clcommon__Rule_Json__c": "{'validationClassName': None, 'successMessage': 'Success', 'successActions': [{'type': 'Apex', 'priority': None, 'apexClassName': 'genesis.ApplicationComplianceInfoAction', 'additionalParams': '{\"genesis__Insider_Relationship__c\":true}', 'actionName': 'SuccessActionForInsiderApplication'}], 'sObjectName': '', 'saveRuleClass': None, 'ruleName': 'RuleOnInsiderApplication', 'priority': None, 'parentRuleID': None, 'parentRecordId': None, 'objectType': 'genesis__applications__c', 'failureMessage': 'Failure', 'failureActions': [{'type': 'Apex', 'priority': None, 'apexClassName': 'genesis.ApplicationComplianceInfoAction', 'additionalParams': '{\"genesis__Insider_Relationship__c\":false}', 'actionName': 'FailureActionForInsiderApplication'}], 'executeActions': None, 'evaluationExpression': '$1 && $2 && $3 || $4', 'enabled': None, 'criteria': [{'type': 'Expression', 'sequence': '$1', 'relatedObject': 'genesis__applications__c', 'minimumValue': None, 'maximumValue': None, 'matchingValue': 'APPROVED - CONVERTED TO CONTRACT', 'matchingType': '!=', 'fieldType': 'STRING', 'fieldName': 'Status', 'fieldAPIName': 'genesis__Status__c', 'criterionName': None, 'apexClassName': None, 'additionalParams': ''}, {'type': 'Expression', 'sequence': '$2', 'relatedObject': 'genesis__applications__c', 'minimumValue': None, 'maximumValue': None, 'matchingValue': 'REJECTED', 'matchingType': '!=', 'fieldType': 'STRING', 'fieldName': 'Status', 'fieldAPIName': 'genesis__Status__c', 'criterionName': None, 'apexClassName': None, 'additionalParams': ''}, {'type': 'Expression', 'sequence': '$3', 'relatedObject': 'clcommon__Party__c', 'minimumValue': None, 'maximumValue': None, 'matchingValue': 'Insider', 'matchingType': '==', 'fieldType': 'STRING', 'fieldName': 'Insider Relationship', 'fieldAPIName': 'clcommon__contact__r.clcommon__Insider_Relationship__c', 'criterionName': None, 'apexClassName': None, 'additionalParams': ''}, {'type': 'Expression', 'sequence': '$4', 'relatedObject': 'clcommon__Party__c', 'minimumValue': None, 'maximumValue': None, 'matchingValue': 'Related Interest of Insider', 'matchingType': '==', 'fieldType': 'STRING', 'fieldName': 'Insider Relationship', 'fieldAPIName': 'clcommon__contact__r.clcommon__Insider_Relationship__c', 'criterionName': None, 'apexClassName': None, 'additionalParams': ''}], 'category': 'ApplicationRules', 'abortQueueExecutionOnFailure': None}",
      "clcommon__Rule_Priority__c": null,
      "clcommon__Rule_Set__r": {
           "attributes": {
                "type": "clcommon__Rule_Set__c"
           },
           "clcommon__External_ID__c": "ApplicationRules"
-     }
+     },
+     "solcommon__CL_Product__r": null,
+     "solcommon__Type__c": null
 }

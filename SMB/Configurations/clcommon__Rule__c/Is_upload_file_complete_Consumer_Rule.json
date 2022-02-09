@@ -1,0 +1,21 @@
+{
+     "attributes": {
+          "type": "clcommon__Rule__c"
+     },
+     "Name": "Is upload file complete",
+     "clcommon__Enabled__c": true,
+     "clcommon__External_ID__c": "Is_upload_file_complete_Consumer_Rule",
+     "clcommon__Object_Type__c": "intdm__OCR_Tasks__c",
+     "clcommon__Parent_Record_Id__c": null,
+     "clcommon__Parent_Rule__r": null,
+     "clcommon__Rule_Json__c": "{'validationClassName': None, 'successMessage': 'Upload file is completed.', 'successActions': [], 'sObjectName': '', 'saveRuleClass': None, 'ruleName': 'Is upload file complete', 'priority': 1, 'parentRuleID': None, 'parentRecordId': None, 'objectType': 'intdm__OCR_Tasks__c', 'failureMessage': 'Upload file is in progress.', 'failureActions': [], 'executeActions': True, 'evaluationExpression': '$1', 'enabled': None, 'criteria': [{'type': 'Expression', 'sequence': '$1', 'relatedObject': 'intdm__OCR_Tasks__c', 'minimumValue': None, 'maximumValue': None, 'matchingValue': 'Success', 'matchingType': '==', 'fieldType': 'STRING', 'fieldName': 'Is upload file complete', 'fieldAPIName': 'intdm__Upload_Documents_Status__c', 'criterionName': None, 'apexClassName': None, 'additionalParams': ''}], 'category': 'ABBYY OCR', 'abortQueueExecutionOnFailure': True}",
+     "clcommon__Rule_Priority__c": 1,
+     "clcommon__Rule_Set__r": {
+          "attributes": {
+               "type": "clcommon__Rule_Set__c"
+          },
+          "clcommon__External_ID__c": null
+     },
+     "solcommon__CL_Product__r": null,
+     "solcommon__Type__c": null
+}

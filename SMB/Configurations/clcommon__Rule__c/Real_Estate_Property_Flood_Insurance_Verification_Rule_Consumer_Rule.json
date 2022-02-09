@@ -1,0 +1,21 @@
+{
+     "attributes": {
+          "type": "clcommon__Rule__c"
+     },
+     "Name": "Real Estate Property - Flood Insurance Verification Rule",
+     "clcommon__Enabled__c": true,
+     "clcommon__External_ID__c": "Real_Estate_Property_Flood_Insurance_Verification_Rule_Consumer_Rule",
+     "clcommon__Object_Type__c": "genesis__Application_Collateral__c",
+     "clcommon__Parent_Record_Id__c": null,
+     "clcommon__Parent_Rule__r": null,
+     "clcommon__Rule_Json__c": "{'validationClassName': None, 'successMessage': 'Rule Evaluation Passed for rule : Real Estate Property - Flood Insurance Verification Rule', 'successActions': [{'type': 'Apex', 'priority': None, 'apexClassName': 'genesis.PolicyConditionGenerationAction', 'additionalParams': '{\"Action type\":\"Success\"}', 'actionName': 'Action1'}], 'sObjectName': '', 'saveRuleClass': 'genesis.PolicyConditionGenerationRuleManagement', 'ruleName': 'Real Estate Property - Flood Insurance Verification Rule', 'priority': 9, 'parentRuleID': None, 'parentRecordId': None, 'objectType': 'genesis__Application_Collateral__c', 'failureMessage': 'Rule Evaluation Failed for rule : Real Estate Property - Flood Insurance Verification Rule', 'failureActions': [{'type': 'Apex', 'priority': None, 'apexClassName': 'genesis.PolicyConditionGenerationAction', 'additionalParams': '{\"Action type\":\"Failure\"}', 'actionName': 'Action2'}], 'executeActions': None, 'evaluationExpression': '$1', 'enabled': None, 'criteria': [{'type': 'Expression', 'sequence': '$1', 'relatedObject': 'genesis__Application_Collateral__c', 'minimumValue': '', 'maximumValue': '', 'matchingValue': 'Real Estate', 'matchingType': '==', 'fieldType': 'STRING', 'fieldName': 'Collateral Type Name', 'fieldAPIName': 'genesis__collateral__r.clcommon__collateral_type__r.name', 'criterionName': None, 'apexClassName': None, 'additionalParams': None}], 'category': 'PolicyConditionGenerationConfig', 'abortQueueExecutionOnFailure': None}",
+     "clcommon__Rule_Priority__c": 9,
+     "clcommon__Rule_Set__r": {
+          "attributes": {
+               "type": "clcommon__Rule_Set__c"
+          },
+          "clcommon__External_ID__c": "Policy_Condition_Generation_Config"
+     },
+     "solcommon__CL_Product__r": null,
+     "solcommon__Type__c": null
+}

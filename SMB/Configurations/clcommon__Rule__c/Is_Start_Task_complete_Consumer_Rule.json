@@ -1,0 +1,21 @@
+{
+     "attributes": {
+          "type": "clcommon__Rule__c"
+     },
+     "Name": "Is Start Task complete",
+     "clcommon__Enabled__c": true,
+     "clcommon__External_ID__c": "Is_Start_Task_complete_Consumer_Rule",
+     "clcommon__Object_Type__c": "intdm__OCR_Tasks__c",
+     "clcommon__Parent_Record_Id__c": null,
+     "clcommon__Parent_Rule__r": null,
+     "clcommon__Rule_Json__c": "{'validationClassName': None, 'successMessage': 'Start task is completed.', 'successActions': [], 'sObjectName': '', 'saveRuleClass': None, 'ruleName': 'Is Start Task complete', 'priority': 2, 'parentRuleID': None, 'parentRecordId': None, 'objectType': 'intdm__OCR_Tasks__c', 'failureMessage': 'Start task is in progress.', 'failureActions': [], 'executeActions': True, 'evaluationExpression': '$1', 'enabled': None, 'criteria': [{'type': 'Expression', 'sequence': '$1', 'relatedObject': 'intdm__OCR_Tasks__c', 'minimumValue': None, 'maximumValue': None, 'matchingValue': 'Success', 'matchingType': '==', 'fieldType': 'STRING', 'fieldName': 'Is Start Task complete', 'fieldAPIName': 'intdm__Start_Task_Status__c', 'criterionName': None, 'apexClassName': None, 'additionalParams': ''}], 'category': 'ABBYY OCR', 'abortQueueExecutionOnFailure': True}",
+     "clcommon__Rule_Priority__c": 2,
+     "clcommon__Rule_Set__r": {
+          "attributes": {
+               "type": "clcommon__Rule_Set__c"
+          },
+          "clcommon__External_ID__c": null
+     },
+     "solcommon__CL_Product__r": null,
+     "solcommon__Type__c": null
+}

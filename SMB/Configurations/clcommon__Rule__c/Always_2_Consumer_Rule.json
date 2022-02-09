@@ -1,0 +1,21 @@
+{
+     "attributes": {
+          "type": "clcommon__Rule__c"
+     },
+     "Name": "Always 2",
+     "clcommon__Enabled__c": true,
+     "clcommon__External_ID__c": "Always_2_Consumer_Rule",
+     "clcommon__Object_Type__c": "genesis__Application_Collateral__c",
+     "clcommon__Parent_Record_Id__c": null,
+     "clcommon__Parent_Rule__r": null,
+     "clcommon__Rule_Json__c": "{'validationClassName': 'DocumentDefinitionPreSaveValidation', 'successMessage': 'Rule Evaluation Passed for rule : Always 2', 'successActions': [{'type': 'Apex', 'priority': None, 'apexClassName': 'genesis.DocumentCategoryGenerateAction', 'additionalParams': '{\"Action type\":\"Success\"}', 'actionName': 'Action1'}], 'sObjectName': 'clcommon__Document_Definition__c', 'saveRuleClass': None, 'ruleName': 'Always 2', 'priority': 49, 'parentRuleID': None, 'parentRecordId': 'a1Z6O000004Dx76UAC', 'objectType': 'genesis__Application_Collateral__c', 'failureMessage': 'Rule Evaluation Failed for rule : Always 2', 'failureActions': [{'type': 'Apex', 'priority': None, 'apexClassName': 'genesis.DocumentCategoryGenerateAction', 'additionalParams': '{\"Action type\":\"Failure\"}', 'actionName': 'Action2'}], 'executeActions': None, 'evaluationExpression': '$1', 'enabled': None, 'criteria': [{'type': 'Expression', 'sequence': '$1', 'relatedObject': 'genesis__Application_Collateral__c', 'minimumValue': '', 'maximumValue': '', 'matchingValue': 'TRUE', 'matchingType': '==', 'fieldType': 'BOOLEAN', 'fieldName': 'Active', 'fieldAPIName': 'genesis__active__c', 'criterionName': None, 'apexClassName': None, 'additionalParams': None}], 'category': 'DocumentDefinition', 'abortQueueExecutionOnFailure': None}",
+     "clcommon__Rule_Priority__c": 45,
+     "clcommon__Rule_Set__r": {
+          "attributes": {
+               "type": "clcommon__Rule_Set__c"
+          },
+          "clcommon__External_ID__c": "Document_Definition"
+     },
+     "solcommon__CL_Product__r": null,
+     "solcommon__Type__c": null
+}

@@ -8,6 +8,7 @@
           },
           "DeveloperName": "Loan"
      },
+     "clcommon__Accrual_Type__c": null,
      "clcommon__Asset_Class__r": {
           "attributes": {
                "type": "clcommon__Asset_Class__c"
@@ -25,12 +26,14 @@
      "clcommon__Product_Name__c": "Home Equity Loan",
      "clcommon__Select_If_Letter_Of_Credit__c": false,
      "clcommon__Status_Tracking_At_Document_File_Level__c": false,
+     "genesis__Added_Interest__c": null,
      "genesis__Allow_SubLimits__c": false,
      "genesis__Annual_Review_Product__r": null,
      "genesis__Digits_After_Decimal__c": 2,
      "genesis__External_ID__c": "Home_Equity_Loan",
      "genesis__Generate_Amortization_Schedule__c": false,
      "genesis__Interest_Period_Calculation__c": null,
+     "genesis__LOC_Amort_Term__c": null,
      "genesis__Move_Across_Month__c": false,
      "genesis__Product_API_Name__c": null,
      "genesis__Rounding_Method__c": "Up",
@@ -65,8 +68,5 @@
      "intdm__UCCC__c": false,
      "solcommon__Days_for_Auto_Withdrawal_of_Application__c": 15,
      "solcommon__Portal_Label__c": null,
-     "solcommon__Show_On_Portal__c": true,
-     "clcommon__Accrual_Type__c": null,
-     "genesis__Added_Interest__c": null,
-     "genesis__LOC_Amort_Term__c": null
+     "solcommon__Show_On_Portal__c": true
 }
