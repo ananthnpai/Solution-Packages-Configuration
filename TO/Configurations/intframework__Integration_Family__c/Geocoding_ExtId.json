@@ -1,0 +1,8 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_Family__c"
+     },
+     "Name": "Geocoding - v2",
+     "External_ID__c": "Geocoding_ExtId",
+     "Release_Checksum__c": "b7be1e2876180a8786061e709f6713e7d6778601c735ca9611fc4085b68266f5"
+}
