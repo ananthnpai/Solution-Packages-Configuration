@@ -1,0 +1,8 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_Family__c"
+     },
+     "Name": "Income Verification",
+     "intframework__External_Id__c": "Income_Verification",
+     "solcommon__Release_Checksum__c": "130a184aa6c2146bc3032a5173051922ed9ec53ddb401f9b2b323b8df34dbef2"
+}

@@ -11,5 +11,6 @@
      },
      "clcommon__External_ID__c": "Parent_Subsidiary",
      "clcommon__Inverse_Role__c": "Subsidiary",
-     "solcommon__Reciprocal_Role_Code__c": null
+     "solcommon__Reciprocal_Role_Code__c": null,
+     "solcommon__Release_Checksum__c": "50da4325435e67ba65f98afb267ac5dfbae781c3982834f41b1363e5c859f111"
 }

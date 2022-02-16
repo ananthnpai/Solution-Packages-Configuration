@@ -1,0 +1,8 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_Family__c"
+     },
+     "Name": "ID Verification",
+     "intframework__External_Id__c": null,
+     "solcommon__Release_Checksum__c": "8a2065a39808e3691499d2f81b8d5724d9558b9b64ca18abc2ba082993a291d4"
+}

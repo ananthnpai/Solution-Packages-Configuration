@@ -11,5 +11,6 @@
      },
      "clcommon__External_ID__c": "Spouse_Spouse",
      "clcommon__Inverse_Role__c": "Spouse",
-     "solcommon__Reciprocal_Role_Code__c": null
+     "solcommon__Reciprocal_Role_Code__c": null,
+     "solcommon__Release_Checksum__c": "91cde73076407a6ad9f8f795ecdfb1d3d72bbc811138af26ecfe35785786d2da"
 }

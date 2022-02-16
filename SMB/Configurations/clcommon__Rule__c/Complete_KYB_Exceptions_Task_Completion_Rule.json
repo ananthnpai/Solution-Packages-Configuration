@@ -1,0 +1,68 @@
+{
+     "attributes": {
+          "type": "clcommon__Rule__c"
+     },
+     "Name": "Complete KYB Exceptions Task Completion Rule",
+     "clcommon__Enabled__c": true,
+     "clcommon__External_ID__c": "Complete_KYB_Exceptions_Task_Completion_Rule",
+     "clcommon__Object_Type__c": "clcommon__Party__c",
+     "clcommon__Parent_Record_Id__c": null,
+     "clcommon__Parent_Rule__r": null,
+     "clcommon__Rule_Json__c": {
+          "validationClassName": null,
+          "successMessage": "Rule Evaluation Passed for rule : Complete KYB Exceptions Task Completion Rule",
+          "successActions": [
+               {
+                    "type": "Apex",
+                    "priority": null,
+                    "apexClassName": "genesis.TaskCompletionAction",
+                    "additionalParams": "{\"Action type\":\"Success\"}",
+                    "actionName": "Action1"
+               }
+          ],
+          "sObjectName": "genesis__Task_Setup__c",
+          "saveRuleClass": "genesis.TaskCompletionRuleManagement",
+          "ruleName": "Complete KYB Exceptions Task Completion Rule",
+          "priority": 2,
+          "parentRuleID": null,
+          "parentRecordId": "aAK5Y0000004POT",
+          "objectType": "clcommon__Party__c",
+          "failureMessage": "Rule Evaluation Failed for rule : Complete KYB Exceptions Task Completion Rule",
+          "failureActions": [
+               {
+                    "type": "Apex",
+                    "priority": null,
+                    "apexClassName": "genesis.TaskCompletionAction",
+                    "additionalParams": "{\"Action type\":\"Failure\"}",
+                    "actionName": "Action2"
+               }
+          ],
+          "executeActions": null,
+          "evaluationExpression": "$1",
+          "enabled": null,
+          "criteria": [
+               {
+                    "type": "Expression",
+                    "sequence": "$1",
+                    "relatedObject": "clcommon__Party__c",
+                    "minimumValue": "",
+                    "maximumValue": "",
+                    "matchingValue": "APPROVED",
+                    "matchingType": "==",
+                    "fieldType": "PICKLIST",
+                    "fieldName": "KYB Verification Status",
+                    "fieldAPIName": "solcommon__kyb_verification_status__c",
+                    "criterionName": null,
+                    "apexClassName": null,
+                    "additionalParams": null
+               }
+          ],
+          "category": "TaskCompletionConfig",
+          "abortQueueExecutionOnFailure": null
+     },
+     "clcommon__Rule_Priority__c": 2,
+     "clcommon__Rule_Set__r": null,
+     "solcommon__CL_Product__r": null,
+     "solcommon__Type__c": null,
+     "solcommon__Release_Checksum__c": "2890c7d5769a070d5e6e6873e34b07f9b4e7795fb718dbc0091881279bcade7c"
+}

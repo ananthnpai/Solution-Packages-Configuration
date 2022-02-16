@@ -9,5 +9,6 @@
      "clcommon__Party_Type_Code__c": null,
      "clcommon__Reciprocal_Role__r": null,
      "clcommon__Related_Business_Entity__c": false,
-     "clcommon__Related_Individual__c": false
+     "clcommon__Related_Individual__c": false,
+     "solcommon__Release_Checksum__c": "0bfaa2b3ba956d638e4291d9f3c423ac7bea6fa93e5088f5e9d39d7d7ab8f948"
 }

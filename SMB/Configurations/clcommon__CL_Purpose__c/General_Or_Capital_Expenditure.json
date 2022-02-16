@@ -7,5 +7,6 @@
      "clcommon__External_ID__c": "General_Or_Capital_Expenditure",
      "clcommon__Primary_Purpose__r": null,
      "clcommon__Purpose_Code__c": null,
-     "intdm__Purpose_Type__c": null
+     "intdm__Purpose_Type__c": null,
+     "solcommon__Release_Checksum__c": "e8205844d9f97aaa8e7e45390c2d74a0738a769ad7cc90eb38c8e5f1ac8ac9d9"
 }

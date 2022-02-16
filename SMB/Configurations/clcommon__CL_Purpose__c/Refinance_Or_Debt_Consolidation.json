@@ -7,5 +7,6 @@
      "clcommon__External_ID__c": "Refinance_Or_Debt_Consolidation",
      "clcommon__Primary_Purpose__r": null,
      "clcommon__Purpose_Code__c": null,
-     "intdm__Purpose_Type__c": null
+     "intdm__Purpose_Type__c": null,
+     "solcommon__Release_Checksum__c": "af11661d9530c648fe950682803a2f2fb2ad8fccd24a0bf14ffe0842bc954933"
 }

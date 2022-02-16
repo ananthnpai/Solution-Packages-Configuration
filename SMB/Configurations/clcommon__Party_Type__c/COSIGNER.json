@@ -6,8 +6,9 @@
      "clcommon__External_ID__c": "COSIGNER",
      "clcommon__External_Party_Type__c": null,
      "clcommon__Notice_of_Credit_Decision__c": false,
-     "clcommon__Party_Type_Code__c": "COSIGNER",
+     "clcommon__Party_Type_Code__c": null,
      "clcommon__Reciprocal_Role__r": null,
      "clcommon__Related_Business_Entity__c": false,
-     "clcommon__Related_Individual__c": false
+     "clcommon__Related_Individual__c": false,
+     "solcommon__Release_Checksum__c": "1577a6c618c69882dadb6e383d27d185c0bace8d5910a4b0b39f58536f116ff9"
 }

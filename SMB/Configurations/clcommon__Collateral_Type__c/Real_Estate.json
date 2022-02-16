@@ -1,0 +1,11 @@
+{
+     "attributes": {
+          "type": "clcommon__Collateral_Type__c"
+     },
+     "Name": "Real Estate",
+     "clcommon__Advance_Rate__c": null,
+     "clcommon__Collateral_Type_Code__c": null,
+     "clcommon__External_ID__c": "Real_Estate",
+     "clcommon__Itemized_Collateral_Values__c": false,
+     "solcommon__Release_Checksum__c": "3bcb6635b222545f2c2b46467088f434268f3c60b171aca297e04116a54f808b"
+}

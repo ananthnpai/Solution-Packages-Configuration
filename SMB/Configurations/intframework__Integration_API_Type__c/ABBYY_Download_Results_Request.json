@@ -1,0 +1,14 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_API_Type__c"
+     },
+     "Name": "ABBYY Download Results Request",
+     "intframework__External_Id__c": "ABBYY_Download_Results_Request",
+     "intframework__Integration_Family__r": {
+          "attributes": {
+               "type": "intframework__Integration_Family__c"
+          },
+          "intframework__External_Id__c": "OCR"
+     },
+     "solcommon__Release_Checksum__c": "8dc98a70faed394733722ef8825127a734ba9db589851f0286a226de93c8e968"
+}

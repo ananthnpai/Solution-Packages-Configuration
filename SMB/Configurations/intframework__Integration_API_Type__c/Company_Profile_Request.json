@@ -1,0 +1,14 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_API_Type__c"
+     },
+     "Name": "Company Profile Request",
+     "intframework__External_Id__c": "Company_Profile_Request",
+     "intframework__Integration_Family__r": {
+          "attributes": {
+               "type": "intframework__Integration_Family__c"
+          },
+          "intframework__External_Id__c": "Business_Search"
+     },
+     "solcommon__Release_Checksum__c": "98ef419bb6f496fca5c4ea7420239f526b64ed22b534a885c46a04baebe54ff4"
+}

@@ -1,0 +1,11 @@
+{
+     "attributes": {
+          "type": "clcommon__Collateral_Type__c"
+     },
+     "Name": "Farm Land",
+     "clcommon__Advance_Rate__c": null,
+     "clcommon__Collateral_Type_Code__c": null,
+     "clcommon__External_ID__c": "Farm_Land",
+     "clcommon__Itemized_Collateral_Values__c": false,
+     "solcommon__Release_Checksum__c": "b252f2d558f34f9ebd42262d7cab8caba2a1f2dbf99e94a2936eefd494c6a7f8"
+}

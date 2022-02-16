@@ -7,5 +7,6 @@
      "clcommon__External_ID__c": "Working_Capital_Specify_Use",
      "clcommon__Primary_Purpose__r": null,
      "clcommon__Purpose_Code__c": null,
-     "intdm__Purpose_Type__c": null
+     "intdm__Purpose_Type__c": null,
+     "solcommon__Release_Checksum__c": "eed852b4de22e915074a0095409e92ac76a905ddaa06e4914a7a4d8ce3d23a31"
 }

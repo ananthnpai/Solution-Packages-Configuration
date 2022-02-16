@@ -1,0 +1,16 @@
+{
+     "attributes": {
+          "type": "clcommon__Reason_Code__c"
+     },
+     "Name": "Collection Action Or Judgement",
+     "clcommon__Description__c": "Collection Action Or Judgement",
+     "clcommon__External_ID__c": "Collection_Action_Or_Judgement",
+     "clcommon__Parent_Reason__r": {
+          "attributes": {
+               "type": "clcommon__Reason_Code__c"
+          },
+          "clcommon__External_ID__c": "Credit"
+     },
+     "clcommon__Reason_Type__c": "Adverse Action",
+     "solcommon__Release_Checksum__c": "57b72dae96db19ee40722a0196d5b4f7e93cc3c28e5e4952bc29d2979baaadbf"
+}

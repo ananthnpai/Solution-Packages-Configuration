@@ -6,5 +6,6 @@
      "clcommon__Individual__c": false,
      "clcommon__Legal_Entity_Type_Code__c": null,
      "clcommon__Legal_Entity_Type__c": null,
-     "genesis__External_Id__c": "Partnership"
+     "genesis__External_Id__c": "Partnership",
+     "solcommon__Release_Checksum__c": "31ef59d6ce5aaff6921a3e9577f48ec09a00625abb3cdcc014d388e353e148ca"
 }

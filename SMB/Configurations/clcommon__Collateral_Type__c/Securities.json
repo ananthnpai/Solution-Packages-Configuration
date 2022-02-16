@@ -1,0 +1,11 @@
+{
+     "attributes": {
+          "type": "clcommon__Collateral_Type__c"
+     },
+     "Name": "Securities",
+     "clcommon__Advance_Rate__c": null,
+     "clcommon__Collateral_Type_Code__c": null,
+     "clcommon__External_ID__c": "Securities",
+     "clcommon__Itemized_Collateral_Values__c": false,
+     "solcommon__Release_Checksum__c": "213d0dc18abd875b6fae42b9c82c89637eb2de340a3bbf0c41c6dcc9b068e569"
+}

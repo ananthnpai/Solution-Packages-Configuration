@@ -1,0 +1,14 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_API_Type__c"
+     },
+     "Name": "Search By ABN v202001",
+     "intframework__External_Id__c": "Search_By_ABN_v202001",
+     "intframework__Integration_Family__r": {
+          "attributes": {
+               "type": "intframework__Integration_Family__c"
+          },
+          "intframework__External_Id__c": "Corporate_Information"
+     },
+     "solcommon__Release_Checksum__c": "e450f2b0b16ed0e1a973020fc3049be6bba3585431bb61797b8b6d3194304309"
+}

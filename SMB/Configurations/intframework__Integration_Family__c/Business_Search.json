@@ -1,0 +1,8 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_Family__c"
+     },
+     "Name": "Business Search",
+     "intframework__External_Id__c": "Business_Search",
+     "solcommon__Release_Checksum__c": "9a632edb730bf878bc92013f1cf15e1c487e348ac5abc3ec8936c94a5390924d"
+}

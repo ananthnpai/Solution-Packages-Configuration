@@ -1,0 +1,8 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_Family__c"
+     },
+     "Name": "UCC",
+     "intframework__External_Id__c": null,
+     "solcommon__Release_Checksum__c": "b4787d1558539d4329c0bd3f9342ee73157abb227cc3424681861d1ee8efdc93"
+}

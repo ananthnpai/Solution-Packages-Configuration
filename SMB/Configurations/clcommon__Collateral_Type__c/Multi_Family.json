@@ -1,0 +1,11 @@
+{
+     "attributes": {
+          "type": "clcommon__Collateral_Type__c"
+     },
+     "Name": "Multi-Family",
+     "clcommon__Advance_Rate__c": null,
+     "clcommon__Collateral_Type_Code__c": null,
+     "clcommon__External_ID__c": "Multi_Family",
+     "clcommon__Itemized_Collateral_Values__c": false,
+     "solcommon__Release_Checksum__c": "42b38ade49c744bd65cef1ea19fb5ac470b9e055cfcc8d3a11e101786c65d678"
+}

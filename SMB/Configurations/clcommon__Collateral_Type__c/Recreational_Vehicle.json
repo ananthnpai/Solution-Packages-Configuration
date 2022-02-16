@@ -1,0 +1,11 @@
+{
+     "attributes": {
+          "type": "clcommon__Collateral_Type__c"
+     },
+     "Name": "Recreational Vehicle",
+     "clcommon__Advance_Rate__c": null,
+     "clcommon__Collateral_Type_Code__c": null,
+     "clcommon__External_ID__c": "Recreational_Vehicle",
+     "clcommon__Itemized_Collateral_Values__c": false,
+     "solcommon__Release_Checksum__c": "8a22059a3d4362a4a89815d7ae08332e790f5ded3de7ebbe61197e379b31e288"
+}

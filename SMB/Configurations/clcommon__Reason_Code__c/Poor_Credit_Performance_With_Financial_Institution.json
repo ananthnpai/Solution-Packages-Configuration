@@ -1,0 +1,16 @@
+{
+     "attributes": {
+          "type": "clcommon__Reason_Code__c"
+     },
+     "Name": "Poor Credit Performance With Financial Institution",
+     "clcommon__Description__c": "Poor credit performance with financial institution",
+     "clcommon__External_ID__c": "Poor_Credit_Performance_With_Financial_Institution",
+     "clcommon__Parent_Reason__r": {
+          "attributes": {
+               "type": "clcommon__Reason_Code__c"
+          },
+          "clcommon__External_ID__c": "Credit"
+     },
+     "clcommon__Reason_Type__c": "Adverse Action",
+     "solcommon__Release_Checksum__c": "f6f38500657079b3459b0bfc17e7568f6baf53170061a0b4cd4e88414d8f8b03"
+}

@@ -8,14 +8,70 @@
      "clcommon__Object_Type__c": "clcommon__Party__c",
      "clcommon__Parent_Record_Id__c": null,
      "clcommon__Parent_Rule__r": null,
-     "clcommon__Rule_Json__c": "{'validationClassName': None, 'successMessage': 'Rule Evaluation Passed for rule : Credit Pulled For Party', 'successActions': [], 'sObjectName': '', 'saveRuleClass': None, 'ruleName': 'Credit Pulled For Party', 'priority': 1, 'parentRuleID': None, 'parentRecordId': None, 'objectType': 'clcommon__Party__c', 'failureMessage': 'Rule Evaluation Failed for rule : Credit Pulled For Party', 'failureActions': [], 'executeActions': None, 'evaluationExpression': '$1&&$2', 'enabled': None, 'criteria': [{'type': 'Expression', 'sequence': '$1', 'relatedObject': 'clcommon__Party__c', 'minimumValue': '', 'maximumValue': '', 'matchingValue': 'true', 'matchingType': '==', 'fieldType': 'BOOLEAN', 'fieldName': 'Credit Pulled', 'fieldAPIName': 'solcommon__credit_pulled__c', 'criterionName': None, 'apexClassName': None, 'additionalParams': None}, {'type': 'Expression', 'sequence': '$2', 'relatedObject': 'clcommon__Party__c', 'minimumValue': '', 'maximumValue': '', 'matchingValue': 'false', 'matchingType': '==', 'fieldType': 'BOOLEAN', 'fieldName': 'Credit Pull Exception', 'fieldAPIName': 'solcommon__credit_analysis_exception__c', 'criterionName': None, 'apexClassName': None, 'additionalParams': None}], 'category': 'Workflow Orchestration Rules', 'abortQueueExecutionOnFailure': None}",
-     "clcommon__Rule_Priority__c": 1,
+     "clcommon__Rule_Json__c": {
+          "validationClassName": null,
+          "successMessage": "Rule Evaluation Passed for rule : Credit Pulled For Party",
+          "successActions": [],
+          "sObjectName": "",
+          "saveRuleClass": null,
+          "ruleName": "Credit Pulled For Party",
+          "priority": 2,
+          "parentRuleID": null,
+          "parentRecordId": null,
+          "objectType": "clcommon__Party__c",
+          "failureMessage": "Rule Evaluation Failed for rule : Credit Pulled For Party",
+          "failureActions": [],
+          "executeActions": null,
+          "evaluationExpression": "$1&&$2",
+          "enabled": null,
+          "criteria": [
+               {
+                    "type": "Expression",
+                    "sequence": "$1",
+                    "relatedObject": "clcommon__Party__c",
+                    "minimumValue": "",
+                    "maximumValue": "",
+                    "matchingValue": "true",
+                    "matchingType": "==",
+                    "fieldType": "BOOLEAN",
+                    "fieldName": "Credit Pulled",
+                    "fieldAPIName": "solcommon__credit_pulled__c",
+                    "criterionName": null,
+                    "apexClassName": null,
+                    "additionalParams": null
+               },
+               {
+                    "type": "Expression",
+                    "sequence": "$2",
+                    "relatedObject": "clcommon__Party__c",
+                    "minimumValue": "",
+                    "maximumValue": "",
+                    "matchingValue": "false",
+                    "matchingType": "==",
+                    "fieldType": "BOOLEAN",
+                    "fieldName": "Credit Analysis Exception",
+                    "fieldAPIName": "solcommon__credit_analysis_exception__c",
+                    "criterionName": null,
+                    "apexClassName": null,
+                    "additionalParams": null
+               }
+          ],
+          "category": "Workflow Orchestration Rules",
+          "abortQueueExecutionOnFailure": null
+     },
+     "clcommon__Rule_Priority__c": 2,
      "clcommon__Rule_Set__r": {
           "attributes": {
                "type": "clcommon__Rule_Set__c"
           },
-          "clcommon__External_ID__c": "Workflow_Orchestration_Rules_Consumer"
+          "clcommon__External_ID__c": "Workflow_Orchestration_Rules"
      },
-     "solcommon__CL_Product__r": null,
-     "solcommon__Type__c": null
+     "solcommon__CL_Product__r": {
+          "attributes": {
+               "type": "clcommon__CL_Product__c"
+          },
+          "genesis__External_ID__c": "Small_Business_Non_RE_Term"
+     },
+     "solcommon__Type__c": "Credit Analysis",
+     "solcommon__Release_Checksum__c": "71870baa66154828aa63ba401ed026fed93dd2f5fe5ca9c5fd3210298cf18e8d"
 }

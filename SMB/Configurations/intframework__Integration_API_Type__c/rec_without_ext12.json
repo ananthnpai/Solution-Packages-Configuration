@@ -1,0 +1,14 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_API_Type__c"
+     },
+     "Name": "Customer Search",
+     "intframework__External_Id__c": null,
+     "intframework__Integration_Family__r": {
+          "attributes": {
+               "type": "intframework__Integration_Family__c"
+          },
+          "intframework__External_Id__c": null
+     },
+     "solcommon__Release_Checksum__c": "ba59b8038b12d04858ede1ce5e61b82f16dc04a2647dc7ae83feac66b840a93c"
+}

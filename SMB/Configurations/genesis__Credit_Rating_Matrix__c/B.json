@@ -1,0 +1,14 @@
+{
+     "attributes": {
+          "type": "genesis__Credit_Rating_Matrix__c"
+     },
+     "Name": "B",
+     "genesis__Credit_Rating_Matrix_Rule__r": {
+          "attributes": {
+               "type": "clcommon__Rule__c"
+          },
+          "clcommon__External_ID__c": "CreditRatingMatrix_B_Rule"
+     },
+     "genesis__External_ID__c": "B",
+     "solcommon__Release_Checksum__c": "f81fe33320348c155fea1278152b7506f9ad97cf7c00968ca458c69150904011"
+}

@@ -1,0 +1,14 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_API_Type__c"
+     },
+     "Name": "Premier Profile",
+     "intframework__External_Id__c": "Premier_Profile",
+     "intframework__Integration_Family__r": {
+          "attributes": {
+               "type": "intframework__Integration_Family__c"
+          },
+          "intframework__External_Id__c": "Commercial_Credit"
+     },
+     "solcommon__Release_Checksum__c": "10ca2a8f516d7e3d445d31bd4cb8917f7c92ef6c42b727bf7e5b9a3b4e641018"
+}

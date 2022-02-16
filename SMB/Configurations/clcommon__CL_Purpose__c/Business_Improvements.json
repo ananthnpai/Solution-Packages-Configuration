@@ -7,5 +7,6 @@
      "clcommon__External_ID__c": "Business_Improvements",
      "clcommon__Primary_Purpose__r": null,
      "clcommon__Purpose_Code__c": null,
-     "intdm__Purpose_Type__c": null
+     "intdm__Purpose_Type__c": null,
+     "solcommon__Release_Checksum__c": "ecb26f0d16aa47577ae34f88ae9ff8556a1b008d1b8302c73dc79990f36bb89e"
 }

@@ -11,5 +11,6 @@
      },
      "clcommon__External_ID__c": "Grandchild_Grandparent",
      "clcommon__Inverse_Role__c": "Grandparent",
-     "solcommon__Reciprocal_Role_Code__c": null
+     "solcommon__Reciprocal_Role_Code__c": null,
+     "solcommon__Release_Checksum__c": "15601dfe4aeccb1ab79bc0bb10ee6f099e7a47fa1d530dcfd5e838fd052c8d6c"
 }

@@ -1,0 +1,16 @@
+{
+     "attributes": {
+          "type": "clcommon__Reason_Code__c"
+     },
+     "Name": "Credit Application Incomplete",
+     "clcommon__Description__c": "Credit Application Incomplete",
+     "clcommon__External_ID__c": "Credit_Application_Incomplete",
+     "clcommon__Parent_Reason__r": {
+          "attributes": {
+               "type": "clcommon__Reason_Code__c"
+          },
+          "clcommon__External_ID__c": "Credit"
+     },
+     "clcommon__Reason_Type__c": "Adverse Action",
+     "solcommon__Release_Checksum__c": "9500f07e4a2cb57c3d5bb00f5e9faea024636d34c9922c1b9555bce8be9156c9"
+}

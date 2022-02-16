@@ -7,5 +7,6 @@
      "clcommon__External_ID__c": "Purchase_Equipment",
      "clcommon__Primary_Purpose__r": null,
      "clcommon__Purpose_Code__c": null,
-     "intdm__Purpose_Type__c": null
+     "intdm__Purpose_Type__c": null,
+     "solcommon__Release_Checksum__c": "d050cc9d35e89861473dfc6c67c369557ff8177a06d393cdaa62d2f4a3761f89"
 }

@@ -11,5 +11,6 @@
      },
      "clcommon__External_ID__c": "Owned_By_Owner",
      "clcommon__Inverse_Role__c": "Owner",
-     "solcommon__Reciprocal_Role_Code__c": null
+     "solcommon__Reciprocal_Role_Code__c": null,
+     "solcommon__Release_Checksum__c": "ab1aa33ea26a9d62f7deaae7bc1272d387b4b13106cacc1e042184ef903cee80"
 }

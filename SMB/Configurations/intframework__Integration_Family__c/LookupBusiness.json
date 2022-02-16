@@ -1,0 +1,8 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_Family__c"
+     },
+     "Name": "LookupBusiness",
+     "intframework__External_Id__c": "LookupBusiness",
+     "solcommon__Release_Checksum__c": "14cc2b9e1bfe2dab84a7908c572bb8bd3b5bfe93a42b4098d9ce760296105d21"
+}

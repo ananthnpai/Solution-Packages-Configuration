@@ -3,9 +3,10 @@
           "type": "clcommon__CL_Purpose__c"
      },
      "Name": "Other",
-     "clcommon__Description__c": "Other",
+     "clcommon__Description__c": null,
      "clcommon__External_ID__c": "Other",
      "clcommon__Primary_Purpose__r": null,
-     "clcommon__Purpose_Code__c": "PUR7",
-     "intdm__Purpose_Type__c": null
+     "clcommon__Purpose_Code__c": null,
+     "intdm__Purpose_Type__c": null,
+     "solcommon__Release_Checksum__c": "08c9f3486b441c5c4a099f01df844c58a68e360c8b8618e12f5abde48d30a90f"
 }

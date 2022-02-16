@@ -1,0 +1,8 @@
+{
+     "attributes": {
+          "type": "intframework__Integration_Family__c"
+     },
+     "Name": "Corporate Information",
+     "intframework__External_Id__c": "Corporate_Information",
+     "solcommon__Release_Checksum__c": "530c9808240e6527e0431d53b5c623d53de823997151fee23980534bbeb8edaf"
+}

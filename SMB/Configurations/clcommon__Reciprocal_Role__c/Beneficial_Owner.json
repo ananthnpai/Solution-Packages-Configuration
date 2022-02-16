@@ -1,0 +1,16 @@
+{
+     "attributes": {
+          "type": "clcommon__Reciprocal_Role__c"
+     },
+     "Name": "Business",
+     "RecordType": {
+          "attributes": {
+               "type": "RecordType"
+          },
+          "DeveloperName": "Business_Business"
+     },
+     "clcommon__External_ID__c": "Beneficial_Owner",
+     "clcommon__Inverse_Role__c": "Beneficial Owner",
+     "solcommon__Reciprocal_Role_Code__c": "Beneficial Owner",
+     "solcommon__Release_Checksum__c": "a02519a518421343f32a47b92328504a25f9bcf0b984a4f8bbd813eef041de4c"
+}
